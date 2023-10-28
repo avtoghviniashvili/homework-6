@@ -1,5 +1,5 @@
 .container {
-    width: 1440px;
+    max-width: 1440px;
     width: 100%;
     margin: auto;
 }
@@ -9,6 +9,7 @@
     display: flex;
     justify-content: space-around;
     padding: 52px 98px;
+    gap: 251px;
 }
 
 .header_H {
@@ -43,18 +44,28 @@
 }
 
 /* section */
-.section{
+.section {
     padding: 115px 98px;
     background-color: #DDEAF8;
+    display: flex;
 }
+
 .article {
     width: 1244px;
     height: 822px;
-    justify-content: center;
-    background-color: ;
 }
 
 .section_header {
     font-size: 32px;
     color: #27187F;
+    padding-bottom: 68px;
+}
+
+.artic_pic {
+    padding: 33px 30px;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: #fff;
+    flex-wrap: wrap;
+    align-content:space-around;
 }
