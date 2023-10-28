@@ -7,9 +7,8 @@
 /* header */
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 52px 98px;
-    gap: 251px;
 }
 
 .header_H {
@@ -45,27 +44,29 @@
 
 /* section */
 .section {
-    padding: 115px 98px;
     background-color: #DDEAF8;
-    display: flex;
 }
-
-.article {
-    width: 1244px;
-    height: 822px;
-}
-
-.section_header {
-    font-size: 32px;
+.section_h{
     color: #27187F;
-    padding-bottom: 68px;
+    font-size: 32px;
+    padding: 115px 98px 68px 98px;
 }
-
-.artic_pic {
-    padding: 33px 30px;
-    border-radius: 10px;
-    display: inline-block;
-    background-color: #fff;
+.section_div{
+    display: flex;
     flex-wrap: wrap;
-    align-content:space-around;
+    align-items: center;
+    column-gap: 22px;
+    row-gap: 51px;
+    padding: 98px 115px;
+}
+.figure{
+    background-color: white;
+    padding: 33px 20px;
+    border: solid white;
+    border-radius: 10px;
+}
+.section_txt{
+    color: #133B3A;
+    font-size: 20px;
+    padding: 33px 0;
 }
