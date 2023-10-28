@@ -46,12 +46,14 @@
 .section {
     background-color: #DDEAF8;
 }
-.section_h{
+
+.section_h {
     color: #27187F;
     font-size: 32px;
     padding: 115px 98px 68px 98px;
 }
-.section_div{
+
+.section_div {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -59,14 +61,61 @@
     row-gap: 51px;
     padding: 98px 115px;
 }
-.figure{
+
+.figure {
     background-color: white;
     padding: 33px 20px;
     border: solid white;
     border-radius: 10px;
 }
-.section_txt{
+
+.section_txt {
     color: #133B3A;
     font-size: 20px;
     padding: 33px 0;
+}
+
+/* footer */
+.footer {
+    background-color: #758BFD;
+}
+
+.main_div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_h {
+    color: white;
+    font-size: 20px;
+    padding: 75px 0 10px 98px;
+}
+
+.fa-brands {
+    color: white;
+}
+
+.social_div {
+    display: flex;
+    column-gap: 15px;
+    padding: 20px 0 105px 98px;
+}
+
+.picture_div {}
+
+.img {
+    border-radius: 8px;
+    background: #FFF;
+}
+.visa{
+    padding: 13px 5px 15px 2px;
+}
+.master{
+    padding: 1px 5px 5px 7px;
+}
+.card{
+    padding: 4px 4px 4px 0px;
+}
+.inslal{
+    padding: 0px 6px 0px 7px;
 }
